@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login_02" timestamp="2019-05-30T01:43:45" time="22.371" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="c72b7de0b63e2ef9da0ee2905e15f8dc"/>
+      <property name="suiteName" value="Login(02)"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/TS_2-login.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="user_logs_in_with_a_existing_account" timestamp="2019-05-30T01:43:45" time="22.359" tests="5" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="c72b7de0b63e2ef9da0ee2905e15f8dc"/>
+      <property name="suiteName" value="User logs in with a existing account"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/TS_2-login.feature"/>
+    </properties>
+    <testcase classname="chrome.user_logs_in_with_a_existing_account" name="user_goes_to_homepage" time="47.179"/>
+    <testcase classname="chrome.user_logs_in_with_a_existing_account" name="user_tries_to_autenicate" time="36.93"/>
+    <testcase classname="chrome.user_logs_in_with_a_existing_account" name="user_enters_the_login_details_and_logs_in" time="32.736"/>
+    <testcase classname="chrome.user_logs_in_with_a_existing_account" name="verify_user_lands_in_my_account_page_showing_user_name_and_logout" time="28.8"/>
+    <testcase classname="chrome.user_logs_in_with_a_existing_account" name="user_logs_out" time="28.549"/>
+  </testsuite>
+</testsuites>

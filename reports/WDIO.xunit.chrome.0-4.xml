@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="purchasehistory_05" timestamp="2019-05-28T21:55:48" time="0.191" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="14880dd25da58de8db74c5b59b3b0a0e"/>
+      <property name="suiteName" value="PurchaseHistory(05)"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/ASPA5-purchaseHistory.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="user_validates_purchase_history_page_aspa5" timestamp="2019-05-28T21:55:48" time="0.173" tests="5" failures="0" errors="1" skipped="4">
+    <properties>
+      <property name="specId" value="14880dd25da58de8db74c5b59b3b0a0e"/>
+      <property name="suiteName" value="User validates Purchase History Page (ASPA5)"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/ASPA5-purchaseHistory.feature"/>
+    </properties>
+    <testcase classname="chrome.user_validates_purchase_history_page_aspa5" name="user_logs_in" time="0.837">
+      <error message="Cannot set property 'user' of undefined"/>
+      <system-err>
+        <![CDATA[
+TypeError: Cannot set property 'user' of undefined
+    at World.<anonymous> (/home/malufa/Algorytma/automation/step_definitions/login.stepDefinition.js:13:5)
+    at F (/home/malufa/Algorytma/automation/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.user_validates_purchase_history_page_aspa5" name="user_is_redirected_to_member_page" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.user_validates_purchase_history_page_aspa5" name="user_clicks_on_the_purchase_history_link" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.user_validates_purchase_history_page_aspa5" name="user_validates_the_purchase_history" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.user_validates_purchase_history_page_aspa5" name="user_checks_for_older_purchase_history" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>

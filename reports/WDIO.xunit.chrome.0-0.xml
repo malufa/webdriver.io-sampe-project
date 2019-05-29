@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="registration_01" timestamp="2019-05-30T01:43:46" time="29.004" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9e3815e402f99cdab0a0272898d489d0"/>
+      <property name="suiteName" value="Registration(01)"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/TS_1-registration.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="user_registers_a_new_account_and_logs_in" timestamp="2019-05-30T01:43:46" time="28.989" tests="6" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9e3815e402f99cdab0a0272898d489d0"/>
+      <property name="suiteName" value="User registers a new account and logs in"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./feature/TS_1-registration.feature"/>
+    </properties>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="user_goes_to_homepage" time="46.562"/>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="user_tries_to_autenicate" time="36.047"/>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="user_registers_with_a_new_email_id" time="31.776"/>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="user_fills_the_form_and_creates_a_new_account" time="30.627"/>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="verify_user_lands_in_my_account_page_showing_user_name_and_logout" time="21.635"/>
+    <testcase classname="chrome.user_registers_a_new_account_and_logs_in" name="user_logs_out" time="21.431"/>
+  </testsuite>
+</testsuites>
